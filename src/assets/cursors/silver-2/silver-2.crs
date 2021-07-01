@@ -1,0 +1,45 @@
+﻿[Arrow]
+Path=Silver Normal Select.cur
+
+[Help]
+Path=Silver Help Select.cur
+
+[AppStarting]
+Path=Working in Background.cur
+
+[Wait]
+Path=Busy Silver.ani
+
+[Crosshair]
+Path=Silver Precision Select.cur
+
+[IBeam]
+Path=Silver Text Select.cur
+
+[NWPen]
+Path=Silver Handwriting.cur
+
+[No]
+Path=Silver Unavailable.cur
+
+[SizeNS]
+Path=Silver Vertical Resize.cur
+
+[SizeWE]
+Path=Silver Horizontal Resize.cur
+
+[SizeNWSE]
+Path=Silver Diagonal Resize 1.cur
+
+[SizeNESW]
+Path=Silver Diagonal Resize 2.cur
+
+[SizeAll]
+Path=Silver Move.cur
+
+[UpArrow]
+Path=Silver Alternate Select.cur
+
+[Hand]
+Path=Silver Link Select.cur
+

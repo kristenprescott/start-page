@@ -1,6 +1,6 @@
 import "./Searchbar.css";
 import { useState } from "react";
-import textCursor from "../../assets/cursors/Cyan_Text.cur";
+import SilverSelect from "../../assets/cursors/silver-2/SilverTextSelect.cur";
 import searchIcon from "../../assets/icons/search.png";
 
 export default function Searchbar() {
@@ -30,7 +30,7 @@ export default function Searchbar() {
         <img src={searchIcon} style={{ width: "2vmax" }} />
         {/* <label htmlFor="google searchbar" style={{ display: "none" }}></label> */}
         <input
-          style={{ cursor: `url(${textCursor}),auto` }}
+          style={{ cursor: `url(${SilverSelect}),auto` }}
           autoComplete="off"
           type="text"
           id="searchbar"

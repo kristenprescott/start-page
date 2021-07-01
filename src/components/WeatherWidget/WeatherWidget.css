@@ -48,7 +48,6 @@ div.Weather {
 
 .card {
   overflow: hidden;
-  padding: 6.9vh;
   background: rgba(255, 255, 255, 0.1);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.4);
   backdrop-filter: blur(1.5px);
@@ -57,6 +56,9 @@ div.Weather {
   border: 1px solid rgba(255, 255, 255, 0.18);
   border-top: 1px solid rgba(255, 255, 255, 0.8);
   border-right: 1px solid rgba(255, 255, 255, 0.6);
+  padding: 1vmin;
+  width: 20vmax;
+  height: 30vmax;
 }
 
 .card:before {
@@ -69,7 +71,8 @@ div.word-wrapper {
 }
 div.word-wrapper > div {
   text-shadow: -3px -3px 4px rgba(10, 20, 60, 0.8);
-  font-size: calc(1vh + 1vw);
+  /* font-size: 1.8vmax; */
+  font-size: calc(1rem + 1vw);
 }
 
 .weather-icon {

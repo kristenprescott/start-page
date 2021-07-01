@@ -1,21 +1,12 @@
 import "./App.css";
-import textCursor from "./assets/cursors/Cyan_Text.cur";
-import helpCursor from "./assets/cursors/Cyan_Help.cur";
-import linkCursor from "./assets/cursors/Cyan_Link.cur";
-import precisionCursor from "./assets/cursors/Cyan_Precision.cur";
-import unavailableCursor from "./assets/cursors/Cyan_Unavailable.cur";
-import vertResizeCursor from "./assets/cursors/Cyan_Vertical_Resize.cur";
-import horResizeCursor from "./assets/cursors/Cyan_Horizontal_Resize.cur";
-import diagResizeCursor1 from "./assets/cursors/Cyan_Diagonal_Resize_1.cur";
-import diagResizeCursor2 from "./assets/cursors/Cyan_Diagonal_Resize_2.cur";
-import cursor from "./assets/cursors/Cyan_Normal.cur";
 import Searchbar from "./components/Searchbar/Searchbar";
 import DateTime from "./components/DateTime/DateTime";
 import WeatherWidget from "./components/WeatherWidget/WeatherWidget";
+import SilverCursor from "./assets/cursors/silver-2/SilverNormalSelect.cur";
 
 function App() {
   return (
-    <div className="App" style={{ cursor: `url(${cursor}),auto` }}>
+    <div className="App" style={{ cursor: `url(${SilverCursor}),auto` }}>
       <div className="wrapper">
         <Searchbar />
         <div className="container">

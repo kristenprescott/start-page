@@ -3,6 +3,9 @@
 .clock-container {
   /* max-width: 32vmax; */
   padding: 1vw;
+  padding-bottom: 2vw;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
   border: 1px solid rgba(225, 119, 3, 0.9);
   background: linear-gradient(
     to bottom,
