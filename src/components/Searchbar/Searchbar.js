@@ -28,7 +28,7 @@ export default function Searchbar() {
     <div className="Component Searchbar">
       <div id="search-container">
         <img src={searchIcon} style={{ width: "2vmax" }} />
-        {/* <label htmlFor="google searchbar" style={{ display: "none" }}></label> */}
+        <label htmlFor="google searchbar" style={{ display: "none" }}></label>
         <input
           style={{ cursor: `url(${SilverSelect}),auto` }}
           autoComplete="off"
